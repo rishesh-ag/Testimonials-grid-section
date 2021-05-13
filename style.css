@@ -132,7 +132,7 @@ main .profile-template:nth-child(4) .profile .about .position {
         margin: 0;
         display: grid;
         grid-template-columns: repeat(4, 300px);
-        grid-template-rows: repeat(2,auto);
+        grid-template-rows: repeat(2,320);
         /* grid-auto-rows: minmax(100px,auto); */
     }
 
