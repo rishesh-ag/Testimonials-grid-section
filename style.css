@@ -129,9 +129,11 @@ main .profile-template:nth-child(4) .profile .about .position {
 
     main {
         padding: 0;
-        margin: 0 20%;
+        margin: 0;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 300px);
+        grid-template-rows: repeat(2,auto);
+        /* grid-auto-rows: minmax(100px,auto); */
     }
 
     main .profile-template:nth-child(1) {
